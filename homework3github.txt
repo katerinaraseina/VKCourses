@@ -15,5 +15,8 @@ git commit -m  "text"
 5) Перейти в Main
 git checkout main
 6) Вмержить новую ветку в Main
+git merge branch_name
 9) Новую ветку запушить во внешний репозиториий
-10) Обновлённый Main запушить во внешний репозиторий.
+git push -u origin branch_name
+10) Обновлённый Main запушить во внешний репозиторий
+git push -u origin main
