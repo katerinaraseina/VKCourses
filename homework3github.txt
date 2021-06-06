@@ -1,9 +1,19 @@
 ДЗ по GIT
 1) Создать в Main текстовый файл, добавить туда текст
+touch file_name
+vim file_name
+git status
+git add file_name
+git cimmit -m "text"
 2) Создать другую ветку
+git touch file_name
 3) Сделать изменения в текстовом файлев новой ветке
+vim file_name
 4) Добавить, зкоммитить изменения
+git add file_name
+git commit -m  "text"
 5) Перейти в Main
+git checkout main
 6) Вмержить новую ветку в Main
 9) Новую ветку запушить во внешний репозиториий
 10) Обновлённый Main запушить во внешний репозиторий.
